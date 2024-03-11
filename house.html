@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pawan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5299991af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <nav id="navbar" class="navbar-white">
+        <a href="index.html"><img src="logo-red.png" alt="" class="logo"></a>
+        
+        <ul class="nav-links">
+            <li><a href="" class="active">Popular Places</a></li>
+            <li><a href="">Travel Outside</a></li>
+            <li><a href="">Online Pakeges</a></li>
+        </ul>
+    
+        <a href="" class="Register">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: sanawad khargone madhya pradesh</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img1"><img src="house-1.png" alt=""></div>
+            <div><img src="house-2.png" alt=""></div>
+            <div><img src="house-3.png" alt=""></div>
+            <div><img src="house-4.png" alt=""></div>
+            <div><img src="house-5.png" alt=""></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by brandon</h2>
+            <p>2 guest &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom</p>
+            <h4>$ 100 / days</h4>
+        </div>
+        <hr class="line">
+        <form action="" class="check-form">
+            <div>
+                <label for="">Check-in</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div>
+                <label for="">Check-out</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div class="guest-field">
+                <label for="">Guest</label>
+                <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit">check for avaibality</button>
+        </form>
+        <ul class="details-list">
+            <li><i class="fas fa-home"></i>Enhanced clean <span>You will have the entire flat for you.</span></li>
+            <li ><i class="fas fa-paint-brush"></i>Guest Location <span>You will have the entire flat for you.</span></li>
+            <li><i class="fas fa-map-marker-alt"></i>Entire Home <span>You will have the entire flat for you.</span></li>
+            <li><i class="fas fa-heart"></i>Entire Home <span>You will have the entire flat for you.</span></li>
+        </ul>
+        <hr class="line">
+        <p class="home">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aliquid ex dicta. Nulla debitis, fugiat magnam ipsum quis repellendus cumque vel laudantium quam consectetur! Quo praesentium consectetur reiciendis placeat in aperiam odit voluptates ipsam neque velit possimus provident maxime non adipisci molestiae, illo facilis distinctio dignissimos et nisi enim deleniti. Aliquam, natus totam maxime maiores eum placeat! Perferendis, impedit? Facilis obcaecati vero rem vitae odit, dolor ipsam deserunt quisquam, quidem enim doloribus porro distinctio, quae quo ullam culpa veritatis voluptas ratione debitis laboriosam provident. Labore numquam eius ipsam soluta nisi aut possimus, nulla doloribus beatae architecto, quaerat, nostrum cumque ducimus.</p>
+        <hr class="line">
+        <h3>location</h3>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.4028750865646!2d75.86941242409631!3d22.686036803112753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fce9643647dd%3A0xc1ffcef90e9b429d!2sCrystal%20IT%20Park!5e1!3m2!1sen!2sin!4v1709541482100!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>Sanawad khargoen madhya pradesh</b>
+            <p>It's is good place to visite. </p>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="host.png" alt="">
+            <div>
+                <h2>Hosted by Pawan</h2>
+                <p><span> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i></span>&nbsp;&nbsp; 222 Reviews</p>
+            </div>
+        </div>
+        <a href="" class="contect-host">contect-host</a>
+
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com"><li class="fab fa-facebook" ></li></a>
+            <a href="https://google.com"><li class="fab fa-google" ></li></a>
+            <a href="https://instagram.com"><li class="fab fa-instagram" ></li></a>
+            <a href="https://gmail.com"><li class="fab fa-twitter" ></li></a>
+            <a href="https://youtube.com"><li class="fab fa-youtube" ></li></a>
+            <hr>
+            <p>Copyright pawan @ goswami 2002</p>
+        </div>
+    </div>
+    <script>
+        var navBar=document.getElementById('navbar');
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+</body>
+</html>
